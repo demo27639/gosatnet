@@ -74,9 +74,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Independent third-party assistance for internet, Wi-Fi, streaming, and cable connectivity concerns.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://gosatnet.com" },
+      { property: "og:site_name", content: "Gosatnet" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@gosatnet" },
     ],
     links: [
+      { rel: "canonical", href: "https://gosatnet.com" },
       { rel: "stylesheet", href: appCss },
       { rel: "icon", type: "image/png", href: faviconUrl },
       { rel: "apple-touch-icon", href: faviconUrl },
